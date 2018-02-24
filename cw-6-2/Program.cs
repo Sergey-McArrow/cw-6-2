@@ -17,6 +17,7 @@ namespace cw_6_2
             while (true) 
             {
                 ConsoleKeyInfo consoleKey = Console.ReadKey();
+
                 if (consoleKey.Key == ConsoleKey.UpArrow)
                 {
                     Console.SetCursorPosition(curX, curY-=1);
